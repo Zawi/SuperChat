@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#content {
+    width: 100%;
+    height: 15em;
+    margin: 0 0 1em 0;
+    border: solid 1px #999;
+    overflow-y: scroll;
+}
+
+
+input#field {
+    width: 350px;
+}
+
+.chat-message {
+    padding: 1em;
+    border-bottom: 1px solid #bbb;
+}
+
+.chat-name {
+    display: block;
+    font-weight: bold;
+    margin-bottom: .5em;
+}

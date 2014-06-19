@@ -1,0 +1,14 @@
+extends layout
+
+block content
+
+    h1=title
+
+    #content
+    .controls
+        form(action='#', method='post')
+            | Name:
+            input#name(type='text')
+            br
+            input#field(type='text')
+            button#send(type='submit',  value='send') Envoyer
